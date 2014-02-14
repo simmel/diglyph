@@ -5,9 +5,14 @@ defaultTasks 'compileTestJava'
 
 repositories.mavenCentral()
 
+group = "se.soy.${project.name.toLowerCase()}"
+mainClassName = "${group}.${project.name}"
+
 dependencies.compile(
  ['se.soy.securerstring:SecurerString:1.2.+'],
  ['se.soy.gpg:GPG:1.0.+'],
  ['org.slf4j:slf4j-api:1.7.+'],
  ['ch.qos.logback:logback-classic:1.1.+'],
 )
+
+jar.manifest.attributes 'Main-Class': mainClassName
