@@ -17,8 +17,12 @@ security) or [passwords](https://en.wikipedia.org/wiki/Password), doesn't
 matter!
 
 ### offline-2FA
-Two-factor authentication (even with hardware tokens!) by using GPG.
-Being able to use your passwords when the network is down and still be secure.
+Two-factor authentication (even with [hardware
+tokens](https://www.yubico.com/2012/12/yubikey-neo-openpgp/) such as the
+[Yubikey NEO](https://www.yubico.com/2012/12/yubikey-neo-openpgp/)) by using
+GPG.
+Being able to use your passwords when the network is down and still be secure
+is a key goal!
 
 What's with the name?
 ---------------------
