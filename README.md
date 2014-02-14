@@ -18,7 +18,7 @@ matter!
 
 ### offline-2FA
 Two-factor authentication (even with [hardware
-tokens](https://www.yubico.com/2012/12/yubikey-neo-openpgp/) such as the
+tokens](http://www.gnupg.org/howtos/card-howto/en/ch02s02.html) such as the
 [Yubikey NEO](https://www.yubico.com/2012/12/yubikey-neo-openpgp/)) by using
 GPG.
 Being able to use your passwords when the network is down and still be secure
