@@ -36,8 +36,8 @@ What's with the name?
    This term is from the Greek word diglyphos, which means *doubly indented*
    and is classified under nouns.
 
-   <small>[Wikitionary](https://en.wiktionary.org/wiki/diglyph) &
-   [Ask](http://www.ask.com/question/what-is-the-definition-of-diglyph)</small>
+   [Wikitionary](https://en.wiktionary.org/wiki/diglyph) &
+   [Ask](http://www.ask.com/question/what-is-the-definition-of-diglyph)
 
 * This project is indented doubly with two spaces...
 * Offline two-factor authentication was an important motivator for creating
@@ -45,7 +45,7 @@ What's with the name?
 * diglyph has few hits on search engines so it should be easy to find! (If you
   just can remember the name that is...)
 
-<small>(yeah, I know, I have the worst kind of humor...)</small>
+(yeah, I know, I have the worst kind of humor...)
 
 License
 -------
