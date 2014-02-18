@@ -2,9 +2,8 @@ diglyph – the offline-distributed crossplatform pass\* manager with offline-2F
 ===============================================================================
 
 ### Offline-distributed
-The XML database ([yeah, I know...](https://duckduckgo.com/?q=xml+hate)) is
-stored in a Git repository and can be easily distributed amongst many computers
-and/or users.
+The YAML database is stored in a Git repository and can be easily distributed
+amongst many computers and/or users.
 
 ### Crossplatform
 Built in Java and distributed as an single uberjar. GPG is available for
