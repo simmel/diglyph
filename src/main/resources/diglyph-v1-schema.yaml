@@ -1,0 +1,26 @@
+diglyph:
+  type: map
+  version: integer
+  name: string
+acl:
+  type: map
+  required: no
+  arbitrary: true
+  value-types:
+    list:
+      value-types:
+        string:
+passwords:
+  type: map
+  arbitrary: true
+  value-types:
+    map:
+      acl:
+        type: list
+      entries:
+        type: list
+        valye-types:
+          type: map
+          note: string
+          username: string
+          password: string
