@@ -1,7 +1,7 @@
 apply plugin: 'java'
 apply plugin: 'application'
 
-defaultTasks 'compileTestJava'
+defaultTasks 'run'
 
 repositories.mavenCentral()
 
