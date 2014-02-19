@@ -1,0 +1,28 @@
+---
+diglyph:
+  version: 1
+  name: Work passwords
+acl:
+  work:
+    - rymdvarelse
+    - tcpdump
+  rymdvarelse:
+    - 0x9F542247
+  tcpdump:
+    - 0x45847B81
+    - 0xBAC56268
+passwords:
+  Cisco:
+    acl:
+    - tcpdump
+    - rymdvarelse
+    entries:
+      - note: Worst password ever
+        username: simmel@soy.se
+        password: |
+          -----BEGIN PGP MESSAGE-----
+
+          hQIMA7pprgBfm1OjAQ/+I5NNJlcu9IhsqSOMC3nbsEqQRAUcY0cBJ7131OlnmDYc
+          [...]
+          =K463
+          -----END PGP MESSAGE-----
