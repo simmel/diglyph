@@ -16,12 +16,12 @@ class Config {
     schema.validate(new FileInputStream(config));
   }
 
-  public static Databasev1 load(File config) throws FileNotFoundException, SchemaException {
+  public static DatabaseV1 load(File config) throws FileNotFoundException, SchemaException {
     // https://code.google.com/p/snakeyaml/wiki/Documentation
     Config.verify(config);
 
-    Yaml yaml = new Yaml(new Constructor(Databasev1.class));
-    Databasev1 obj = (Databasev1)yaml.load(new FileInputStream(config));
+    Yaml yaml = new Yaml(new Constructor(DatabaseV1.class));
+    DatabaseV1 obj = (DatabaseV1)yaml.load(new FileInputStream(config));
     return obj;
   }
 }

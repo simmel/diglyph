@@ -7,7 +7,7 @@ import org.projectodd.yaml.SchemaException;
 class diglyph {
   public static void main(String args[]) throws FileNotFoundException, SchemaException {
     File config = new File("diglyph.yaml");
-    Databasev1 db;
+    DatabaseV1 db;
     try {
       db = Config.load(config);
     }
